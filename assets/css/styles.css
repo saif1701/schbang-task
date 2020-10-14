@@ -980,6 +980,7 @@ footer.footer .divider {
 	
 	.explore-section{
 		justify-content: center;
+		z-index:-1;
 	}
 	.explore-info,.explore-world-info, .guides-sunny-info {
 	     max-width: 100%;
@@ -1005,13 +1006,13 @@ footer.footer .divider {
 			top: 0;
 			left: 0;
 			right: 0;
-			bottom: 0;
 			display: none;
 			z-index: 1010;
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
 			overflow-y: hidden;
+			padding: 10rem 5rem;
 		}
 	ul.navigation-items.show {
 			display: flex;
